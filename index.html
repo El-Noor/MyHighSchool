@@ -1,40 +1,44 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>jQuery Mobile: Theme Download</title>
-		<link rel="stylesheet" href="themes/backgroundcolor.min.css" />
-		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
-	</head>
-	<body>
-		<div data-role="page" data-theme="a">
-			<div data-role="header" data-position="inline">
-				<h1>It Worked!</h1>
-			</div>
-			<div data-role="content" data-theme="a">
-				<p>Your theme was successfully downloaded. You can use this page as a reference for how to link it up!</p>
-				<pre>
-<strong>&lt;link rel=&quot;stylesheet&quot; href=&quot;themes/backgroundcolor.min.css&quot; /&gt;</strong>
-&lt;link rel=&quot;stylesheet&quot; href=&quot;http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css&quot; /&gt;
-&lt;script src=&quot;http://code.jquery.com/jquery-1.10.2.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js&quot;&gt;&lt;/script&gt;
-				</pre>
-				<p>This is content color swatch "A" and a preview of a <a href="#" class="ui-link">link</a>.</p>
-				<label for="slider1">Input slider:</label>
-				<input type="range" name="slider1" id="slider1" value="50" min="0" max="100" data-theme="a" />
-				<fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
-				<legend>Cache settings:</legend>
-				<input type="radio" name="radio-choice-a1" id="radio-choice-a1" value="on" checked="checked" />
-				<label for="radio-choice-a1">On</label>
-				<input type="radio" name="radio-choice-a1" id="radio-choice-b1" value="off"  />
-				<label for="radio-choice-b1">Off</label>
-				</fieldset>
-			</div>
-		</div>
-	</body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<title>My High School</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header">
+		<h1>MyHighSchool</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-ajax="false" data-theme="a">
+			<li><a href="http://bombers.k12.ar.us/">Mountain Home Public Schools</a></li>
+			<li><a href="http://bombers.k12.ar.us/hs/documents/HSAnnouncements.pdf">High School Announcement</a></li>
+			<li><a href="http://bombers.k12.ar.us/lunch_menu.pdf">Lunch Menu</a></li>
+			<li><a href="http://bombers.k12.ar.us/hs/hs_faculty.htm">Teacher Email</a></li>
+			<li><a href="http://bombers.k12.ar.us/closings_and_cancellations.htm">Closing and Cancellations</a></li>
+			<li><a href="https://hac24.eschoolplus.k12.ar.us/homeaccess24/">Grades</a></li>
+		<h1 align="center">Homework Helpers</h1>
+			<li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+			<li><a href="http://www.easybib.com/?utm_source=chrome&utm_campaign=toolbar">Easy Bib</a></li>
+			<li><a href="http://www.slader.com/">Slader</a></li>
+			<li><a href="https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q">Crash Course</a></li>
+		<h1 align="center">Scholarships</h1>
+			<li><a href="http://bombers.k12.ar.us/hs/hs_counselors/Scholarships.htm">Mountain Home Scholarship</a></li>
+			<li><a href="https://www.scholarships.com/">Scholarship.com</a></li>
+		</ul>
+	</div>
+	<div data-role="footer">
+		<p>&copy; 2014 - MyHighSchool</p>
+	</div>
+</div>
+</body>
 </html>
+
